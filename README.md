@@ -1,4 +1,7 @@
 # pinn-cantilever-beam
+
+<img width="1013/4" height="486/4" alt="image" src="https://github.com/user-attachments/assets/446cebcf-f30d-4e6d-a81d-1ed55965213e" />
+
 A Physics-Informed Neural Network (PINN) in PyTorch to solve the 4th-order Euler-Bernoulli beam equation.
 
 This project is a hands-on implementation of a Physics-Informed Neural Network (PINN) in PyTorch to solve a classic 4th-order differential equation from solid mechanics: the Euler-Bernoulli beam theory.
