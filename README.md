@@ -27,7 +27,7 @@ This repository solves one problem in three different ways to validate the PINN'
 
 A naive implementation of this PINN fails spectacularly. The training loss explodes or crashes with nan (Not a Number) errors. The key to the solution was Normalization (Non-Dimensionalization). By scaling the inputs and outputs to a "calm" numerical range [0, 1], the optimizer (Adam + L-BFGS) could successfully navigate the complex loss landscape and converge to the correct physical solution.
 
-All the math, debugging steps, and the "Aha!" moments of this process are documented in the main Jupyter Notebook.
+All the math, debugging steps, and results are documented in the main Jupyter Notebook.
 
 How to Run:
 This project is contained entirely within the pinn_beam_solver.ipynb Jupyter Notebook.
