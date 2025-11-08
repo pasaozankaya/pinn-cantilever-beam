@@ -20,8 +20,6 @@ This repository solves one problem in three different ways to validate the PINN'
 
 💻 FEA Result: A numerical simulation using the open-source FreeCAD modeler and Calculix solver. The raw data from this simulation (calculix.dat) is included in this repository.
 
-(Screenshot of the FEA model setup in FreeCAD)
-
 🧠 AI (The "PINN"): The PyTorch model in the main Jupyter Notebook (pinn_beam_solver.ipynb). It was trained to satisfy the physics loss (d'''' = 1 in normalized coordinates) and the four boundary conditions (d(0)=0, d'(0)=0, d''(L)=0, d'''(L)=0).
 
 
