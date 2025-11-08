@@ -25,7 +25,7 @@ This repository solves one problem in three different ways to validate the PINN'
 🧠 AI (The "PINN"): The PyTorch model in the main Jupyter Notebook (pinn_beam_solver.ipynb). It was trained to satisfy the physics loss (d'''' = 1 in normalized coordinates) and the four boundary conditions (d(0)=0, d'(0)=0, d''(L)=0, d'''(L)=0).
 
 
-A naive implementation of this PINN fails spectacularly. The training loss explodes or crashes with nan (Not a Number) errors. The key to the solution was Normalization (Non-Dimensionalization). By scaling the inputs and outputs to a "calm" numerical range [0, 1], the optimizer (Adam + L-BFGS) could successfully navigate the complex loss landscape and converge to the correct physical solution.
+A naive implementation of this PINN fails, the training loss explodes or crashes with nan (Not a Number) errors. The key to the solution was Normalization (Non-Dimensionalization). By scaling the inputs and outputs to a "calm" numerical range [0, 1], the optimizer (Adam + L-BFGS) could successfully navigate the complex loss landscape and converge to the correct physical solution.
 
 All the math, debugging steps, and results are documented in the main Jupyter Notebook.
 
