@@ -1,6 +1,7 @@
 # pinn-cantilever-beam
 
-<img width="1013/4" height="486/4" alt="image" src="https://github.com/user-attachments/assets/446cebcf-f30d-4e6d-a81d-1ed55965213e" />
+<img width="1013/4" height="486/4" alt="image" src="https://github.com/pasaozankaya/pinn-cantilever-beam/blob/main/Freecad_Calculix_Results.png" />
+
 
 A Physics-Informed Neural Network (PINN) in PyTorch to solve the 4th-order Euler-Bernoulli beam equation.
 
