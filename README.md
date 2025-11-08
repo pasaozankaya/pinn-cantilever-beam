@@ -46,3 +46,6 @@ Open pinn_beam_solver.ipynb in Jupyter Lab, Jupyter Notebook, or VS Code.
 Run the first cell: This cell contains the entire PINN definition and the two-phase (Adam + L-BFGS) training process.
 
 Run the second cell: This cell loads the trained model, loads the calculix.dat, and generates the final 3-way comparison plot.
+
+<img width="1006" height="711" alt="image" src="https://github.com/user-attachments/assets/388a3e84-1b6c-4bcb-9191-86a06d31c562" />
+
